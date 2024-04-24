@@ -11,7 +11,7 @@ import SwiftUI
 struct homework_img_lyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
