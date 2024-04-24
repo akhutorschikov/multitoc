@@ -11,7 +11,18 @@
 		0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA76F2BD93F4000FEFE95 /* HomeView.swift */; };
 		0A0BA7722BD93F4100FEFE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */; };
 		0A0BA7752BD93F4100FEFE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */; };
+		0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7882BD940C800FEFE95 /* Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A0BA78A2BD940C800FEFE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0BA7622BD93F4000FEFE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0BA7692BD93F4000FEFE95;
+			remoteInfo = "homework-img.ly";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A0BA76A2BD93F4000FEFE95 /* homework-img.ly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework-img.ly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +30,19 @@
 		0A0BA76F2BD93F4000FEFE95 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A0BA7862BD940C800FEFE95 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0BA7882BD940C800FEFE95 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0A0BA7672BD93F4000FEFE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0BA7832BD940C800FEFE95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0BA76C2BD93F4000FEFE95 /* homework-img.ly */,
+				0A0BA7872BD940C800FEFE95 /* Tests */,
 				0A0BA76B2BD93F4000FEFE95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0BA76A2BD93F4000FEFE95 /* homework-img.ly.app */,
+				0A0BA7862BD940C800FEFE95 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +145,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0A0BA7872BD940C800FEFE95 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7882BD940C800FEFE95 /* Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +173,24 @@
 			productReference = 0A0BA76A2BD93F4000FEFE95 /* homework-img.ly.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0A0BA7852BD940C800FEFE95 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0BA78C2BD940C800FEFE95 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				0A0BA7822BD940C800FEFE95 /* Sources */,
+				0A0BA7832BD940C800FEFE95 /* Frameworks */,
+				0A0BA7842BD940C800FEFE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0BA78B2BD940C800FEFE95 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 0A0BA7862BD940C800FEFE95 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +203,10 @@
 				TargetAttributes = {
 					0A0BA7692BD93F4000FEFE95 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					0A0BA7852BD940C800FEFE95 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0A0BA7692BD93F4000FEFE95;
 					};
 				};
 			};
@@ -172,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				0A0BA7692BD93F4000FEFE95 /* homework-img.ly */,
+				0A0BA7852BD940C800FEFE95 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +236,13 @@
 			files = (
 				0A0BA7752BD93F4100FEFE95 /* Preview Assets.xcassets in Resources */,
 				0A0BA7722BD93F4100FEFE95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0BA7842BD940C800FEFE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +258,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A0BA7822BD940C800FEFE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0BA78B2BD940C800FEFE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0BA7692BD93F4000FEFE95 /* homework-img.ly */;
+			targetProxy = 0A0BA78A2BD940C800FEFE95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A0BA7762BD93F4100FEFE95 /* Debug */ = {
@@ -336,6 +412,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,6 +453,50 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A0BA78D2BD940C800FEFE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52R4QG4H2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khuala.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homework-img.ly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/homework-img.ly";
+			};
+			name = Debug;
+		};
+		0A0BA78E2BD940C800FEFE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52R4QG4H2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khuala.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homework-img.ly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/homework-img.ly";
 			};
 			name = Release;
 		};
@@ -395,6 +517,15 @@
 			buildConfigurations = (
 				0A0BA7792BD93F4100FEFE95 /* Debug */,
 				0A0BA77A2BD93F4100FEFE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0BA78C2BD940C800FEFE95 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0BA78D2BD940C800FEFE95 /* Debug */,
+				0A0BA78E2BD940C800FEFE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
