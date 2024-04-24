@@ -51,6 +51,12 @@
 		0A0BA7CF2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CA2BD9476C00FEFE95 /* KHGroupRowView.swift */; };
 		0A0BA7D02BD9476C00FEFE95 /* KHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */; };
 		0A0BA7D12BD9476C00FEFE95 /* KHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */; };
+		0A0BA7D32BD9517D00FEFE95 /* KHStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D22BD9517D00FEFE95 /* KHStyle.swift */; };
+		0A0BA7D42BD9517D00FEFE95 /* KHStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D22BD9517D00FEFE95 /* KHStyle.swift */; };
+		0A0BA7D62BD951A400FEFE95 /* KHPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D52BD951A400FEFE95 /* KHPalette.swift */; };
+		0A0BA7D72BD951A400FEFE95 /* KHPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D52BD951A400FEFE95 /* KHPalette.swift */; };
+		0A0BA7D92BD951C700FEFE95 /* KHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */; };
+		0A0BA7DA2BD951C700FEFE95 /* KHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +98,9 @@
 		0A0BA7C92BD9476C00FEFE95 /* KHGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHGroupView.swift; sourceTree = "<group>"; };
 		0A0BA7CA2BD9476C00FEFE95 /* KHGroupRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHGroupRowView.swift; sourceTree = "<group>"; };
 		0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHView.swift; sourceTree = "<group>"; };
+		0A0BA7D22BD9517D00FEFE95 /* KHStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStyle.swift; sourceTree = "<group>"; };
+		0A0BA7D52BD951A400FEFE95 /* KHPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHPalette.swift; sourceTree = "<group>"; };
+		0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +196,9 @@
 		0A0BA77E2BD9400800FEFE95 /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA7D22BD9517D00FEFE95 /* KHStyle.swift */,
+				0A0BA7D52BD951A400FEFE95 /* KHPalette.swift */,
+				0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -404,6 +416,8 @@
 				0A0BA7B52BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
 				0A0BA7AA2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
 				0A0BA7922BD9418000FEFE95 /* KHDetailsEntry.swift in Sources */,
+				0A0BA7D62BD951A400FEFE95 /* KHPalette.swift in Sources */,
+				0A0BA7D32BD9517D00FEFE95 /* KHStyle.swift in Sources */,
 				0A0BA7CE2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */,
 				0A0BA7B92BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
 				0A0BA7C52BD9475600FEFE95 /* KHColor+Basic.swift in Sources */,
@@ -414,6 +428,7 @@
 				0A0BA7942BD9419A00FEFE95 /* KHContentManager.swift in Sources */,
 				0A0BA7D02BD9476C00FEFE95 /* KHView.swift in Sources */,
 				0A0BA7C12BD9475600FEFE95 /* UIView+Geometry.swift in Sources */,
+				0A0BA7D92BD951C700FEFE95 /* KHTheme.swift in Sources */,
 				0A0BA7B72BD9474B00FEFE95 /* KHView_Editable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +443,14 @@
 				0A0BA7AB2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
 				0A0BA7A72BD9472D00FEFE95 /* KHViewHelper.swift in Sources */,
 				0A0BA7982BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
+				0A0BA7DA2BD951C700FEFE95 /* KHTheme.swift in Sources */,
+				0A0BA7D42BD9517D00FEFE95 /* KHStyle.swift in Sources */,
 				0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */,
 				0A0BA7C62BD9475600FEFE95 /* KHColor+Basic.swift in Sources */,
 				0A0BA7CD2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
 				0A0BA7BA2BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
 				0A0BA7B62BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
+				0A0BA7D72BD951A400FEFE95 /* KHPalette.swift in Sources */,
 				0A0BA7C42BD9475600FEFE95 /* UIView+Layout.swift in Sources */,
 				0A0BA7C82BD9475600FEFE95 /* KHGeometry.swift in Sources */,
 				0A0BA7C22BD9475600FEFE95 /* UIView+Geometry.swift in Sources */,
