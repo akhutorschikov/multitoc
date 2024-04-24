@@ -65,6 +65,8 @@
 		0A0BA7E42BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E22BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift */; };
 		0A0BA7E62BD9531700FEFE95 /* KHTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */; };
 		0A0BA7E72BD9531700FEFE95 /* KHTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */; };
+		0A0BA7E92BD953AA00FEFE95 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E82BD953AA00FEFE95 /* DetailsView.swift */; };
+		0A0BA7EA2BD953AA00FEFE95 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E82BD953AA00FEFE95 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,7 @@
 		0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeViewModel.swift; sourceTree = "<group>"; };
 		0A0BA7E22BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeGroupViewContentProvider.swift; sourceTree = "<group>"; };
 		0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeView.swift; sourceTree = "<group>"; };
+		0A0BA7E82BD953AA00FEFE95 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0BA76F2BD93F4000FEFE95 /* HomeView.swift */,
+				0A0BA7E82BD953AA00FEFE95 /* DetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -433,6 +437,7 @@
 				0A0BA7C32BD9475600FEFE95 /* UIView+Layout.swift in Sources */,
 				0A0BA7AC2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */,
 				0A0BA7972BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
+				0A0BA7E92BD953AA00FEFE95 /* DetailsView.swift in Sources */,
 				0A0BA7902BD9416500FEFE95 /* KHMainEntry.swift in Sources */,
 				0A0BA7A62BD9472D00FEFE95 /* KHViewHelper.swift in Sources */,
 				0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */,
@@ -476,6 +481,7 @@
 				0A0BA7D42BD9517D00FEFE95 /* KHStyle.swift in Sources */,
 				0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */,
 				0A0BA7C62BD9475600FEFE95 /* KHColor+Basic.swift in Sources */,
+				0A0BA7EA2BD953AA00FEFE95 /* DetailsView.swift in Sources */,
 				0A0BA7CD2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
 				0A0BA7BA2BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
 				0A0BA7DE2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */,
