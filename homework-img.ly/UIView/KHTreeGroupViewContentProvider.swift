@@ -228,7 +228,7 @@ fileprivate class KHGroupViewTitleView: KHView, KHColor_Sensitive
         let padding = contentPadding + .init(right: imageOffset)
         
         let size = Self._contentSize(for: view, width: self.bounds.width - padding.width)
-        let frame = self.bounds.height(0).inframe(size, [.top, .left], padding)
+        let frame = self.bounds.height(0).inframe(size, [KHAlign.top, KHAlign.left], padding)
         
         UIView.performWithoutAnimation {
             view.frame = frame
@@ -238,7 +238,7 @@ fileprivate class KHGroupViewTitleView: KHView, KHColor_Sensitive
         self.height = frame.bottom + padding.bottom
         
         if  let view = self._imageView {
-            view.frame = self.bounds.inframe(view.size, .right, contentPadding)
+            view.frame = self.bounds.inframe(view.size, KHAlign.right, contentPadding)
         }
     }
     

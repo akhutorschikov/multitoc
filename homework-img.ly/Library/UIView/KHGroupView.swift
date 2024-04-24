@@ -152,7 +152,7 @@ final class KHGroupView: KHView, KHColor_Sensitive, KHView_Editable
             }
                 
             let inset = separatorConfig.inset
-            let frame = view.bounds.inframe(.init(height: separatorConfig.lineWidth), .bottom, inset)
+            let frame = view.bounds.inframe(.init(height: separatorConfig.lineWidth), KHAlign.bottom, inset)
             
             separatorView.frame = frame.pixelRoundPosition()
         }

@@ -67,6 +67,9 @@
 		0A0BA7E72BD9531700FEFE95 /* KHTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */; };
 		0A0BA7E92BD953AA00FEFE95 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E82BD953AA00FEFE95 /* DetailsView.swift */; };
 		0A0BA7EA2BD953AA00FEFE95 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E82BD953AA00FEFE95 /* DetailsView.swift */; };
+		0A0BA7EB2BD95E9B00FEFE95 /* KHDetailsEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7912BD9418000FEFE95 /* KHDetailsEntry.swift */; };
+		0A0BA7EC2BD95EC300FEFE95 /* KHMainEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA78F2BD9416500FEFE95 /* KHMainEntry.swift */; };
+		0A0BA7ED2BD95ED800FEFE95 /* KHContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7932BD9419A00FEFE95 /* KHContentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -476,6 +479,7 @@
 				0A0BA7CF2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */,
 				0A0BA7AB2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
 				0A0BA7A72BD9472D00FEFE95 /* KHViewHelper.swift in Sources */,
+				0A0BA7EB2BD95E9B00FEFE95 /* KHDetailsEntry.swift in Sources */,
 				0A0BA7982BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
 				0A0BA7DA2BD951C700FEFE95 /* KHTheme.swift in Sources */,
 				0A0BA7D42BD9517D00FEFE95 /* KHStyle.swift in Sources */,
@@ -484,6 +488,7 @@
 				0A0BA7EA2BD953AA00FEFE95 /* DetailsView.swift in Sources */,
 				0A0BA7CD2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
 				0A0BA7BA2BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
+				0A0BA7EC2BD95EC300FEFE95 /* KHMainEntry.swift in Sources */,
 				0A0BA7DE2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */,
 				0A0BA7B62BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
 				0A0BA7D72BD951A400FEFE95 /* KHPalette.swift in Sources */,
@@ -494,6 +499,7 @@
 				0A0BA7AD2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */,
 				0A0BA7D12BD9476C00FEFE95 /* KHView.swift in Sources */,
 				0A0BA7B82BD9474B00FEFE95 /* KHView_Editable.swift in Sources */,
+				0A0BA7ED2BD95ED800FEFE95 /* KHContentManager.swift in Sources */,
 				0A0BA7E12BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

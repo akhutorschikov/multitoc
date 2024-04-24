@@ -181,14 +181,14 @@ class KHGroupRowView: KHView, KHColor_Sensitive, KHView_Editable
         }
 
         if  let view = self._titleView {
-            view.frame = bounds.inframe(.init(height: 1), .top, viewInset)
+            view.frame = bounds.inframe(.init(height: 1), KHAlign.top, viewInset)
             view.layoutIfNeeded(.init(right: rightWidth))
             viewInset.top = view.bottom
             titleFrame = view.frame
         }
         
         if  let view = self._contentView {
-            view.frame = bounds.inframe(.init(height: 1), .top, viewInset)
+            view.frame = bounds.inframe(.init(height: 1), KHAlign.top, viewInset)
             view.layoutIfNeeded()
             viewInset.top = view.bottom
         }
@@ -211,18 +211,18 @@ class KHGroupRowView: KHView, KHColor_Sensitive, KHView_Editable
         if  self._editingActive {
             var rightOffset: CGFloat = spacing
             if  let button = self._deleteButton {
-                button.frame = titleFrame.inframe(button.size, .right, .init(right: rightOffset))
+                button.frame = titleFrame.inframe(button.size, KHAlign.right, .init(right: rightOffset))
                 rightOffset = button.leftInverted + spacing
             }
             if  let view = self._listIconView {
-                view.frame = titleFrame.inframe(view.size, .right, .init(right: rightOffset))
+                view.frame = titleFrame.inframe(view.size, KHAlign.right, .init(right: rightOffset))
             }
         } else {
             if  let button = self._deleteButton {
-                button.frame = titleFrame.inframe(button.size, .rightOutside)
+                button.frame = titleFrame.inframe(button.size, KHAlign.rightOutside)
             }
             if  let view = self._listIconView {
-                view.frame = titleFrame.inframe(view.size, .rightOutside)
+                view.frame = titleFrame.inframe(view.size, KHAlign.rightOutside)
             }
         }
     }

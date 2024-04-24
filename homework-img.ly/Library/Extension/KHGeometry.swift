@@ -742,7 +742,7 @@ public extension KHSize {
     
     var center: CGPoint
     {
-        return self.pointInside(.center);
+        return self.pointInside(KHAlign.center);
     }
     
     var bounds: CGRect
@@ -858,7 +858,7 @@ public extension KHSize {
     static let standard = KHSize(100)
 }
 
-extension KHSize: Hashable
+extension KHSize
 {
     static func == (lhs: KHSize, rhs: KHSize) -> Bool
     {
