@@ -12,6 +12,15 @@
 		0A0BA7722BD93F4100FEFE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */; };
 		0A0BA7752BD93F4100FEFE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */; };
 		0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7882BD940C800FEFE95 /* Tests.swift */; };
+		0A0BA7902BD9416500FEFE95 /* KHMainEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA78F2BD9416500FEFE95 /* KHMainEntry.swift */; };
+		0A0BA7922BD9418000FEFE95 /* KHDetailsEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7912BD9418000FEFE95 /* KHDetailsEntry.swift */; };
+		0A0BA7942BD9419A00FEFE95 /* KHContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7932BD9419A00FEFE95 /* KHContentManager.swift */; };
+		0A0BA7972BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7962BD942F500FEFE95 /* KHNetworkMonitor.swift */; };
+		0A0BA7982BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7962BD942F500FEFE95 /* KHNetworkMonitor.swift */; };
+		0A0BA79B2BD9463E00FEFE95 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79A2BD9463E00FEFE95 /* tree.json */; };
+		0A0BA79C2BD9463E00FEFE95 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79A2BD9463E00FEFE95 /* tree.json */; };
+		0A0BA79E2BD9465700FEFE95 /* details.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79D2BD9465700FEFE95 /* details.json */; };
+		0A0BA79F2BD9465700FEFE95 /* details.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79D2BD9465700FEFE95 /* details.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,12 @@
 		0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A0BA7862BD940C800FEFE95 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0BA7882BD940C800FEFE95 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		0A0BA78F2BD9416500FEFE95 /* KHMainEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainEntry.swift; sourceTree = "<group>"; };
+		0A0BA7912BD9418000FEFE95 /* KHDetailsEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHDetailsEntry.swift; sourceTree = "<group>"; };
+		0A0BA7932BD9419A00FEFE95 /* KHContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHContentManager.swift; sourceTree = "<group>"; };
+		0A0BA7962BD942F500FEFE95 /* KHNetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHNetworkMonitor.swift; sourceTree = "<group>"; };
+		0A0BA79A2BD9463E00FEFE95 /* tree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
+		0A0BA79D2BD9465700FEFE95 /* details.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = details.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +111,7 @@
 		0A0BA77B2BD93F8F00FEFE95 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA7992BD945EA00FEFE95 /* Data */,
 				0A0BA76D2BD93F4000FEFE95 /* homework_img_lyApp.swift */,
 				0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */,
 			);
@@ -113,6 +129,7 @@
 		0A0BA77D2BD9400400FEFE95 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA7952BD942E400FEFE95 /* Network */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -127,6 +144,9 @@
 		0A0BA77F2BD9400F00FEFE95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA78F2BD9416500FEFE95 /* KHMainEntry.swift */,
+				0A0BA7912BD9418000FEFE95 /* KHDetailsEntry.swift */,
+				0A0BA7932BD9419A00FEFE95 /* KHContentManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +171,23 @@
 				0A0BA7882BD940C800FEFE95 /* Tests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		0A0BA7952BD942E400FEFE95 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7962BD942F500FEFE95 /* KHNetworkMonitor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0A0BA7992BD945EA00FEFE95 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA79A2BD9463E00FEFE95 /* tree.json */,
+				0A0BA79D2BD9465700FEFE95 /* details.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +273,8 @@
 			files = (
 				0A0BA7752BD93F4100FEFE95 /* Preview Assets.xcassets in Resources */,
 				0A0BA7722BD93F4100FEFE95 /* Assets.xcassets in Resources */,
+				0A0BA79E2BD9465700FEFE95 /* details.json in Resources */,
+				0A0BA79B2BD9463E00FEFE95 /* tree.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BA79F2BD9465700FEFE95 /* details.json in Resources */,
+				0A0BA79C2BD9463E00FEFE95 /* tree.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BA7972BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
+				0A0BA7902BD9416500FEFE95 /* KHMainEntry.swift in Sources */,
 				0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */,
+				0A0BA7922BD9418000FEFE95 /* KHDetailsEntry.swift in Sources */,
 				0A0BA76E2BD93F4000FEFE95 /* homework_img_lyApp.swift in Sources */,
+				0A0BA7942BD9419A00FEFE95 /* KHContentManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BA7982BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
 				0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
