@@ -61,6 +61,10 @@
 		0A0BA7DE2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DC2BD9524A00FEFE95 /* KHTree_ViewModel.swift */; };
 		0A0BA7E02BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */; };
 		0A0BA7E12BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */; };
+		0A0BA7E32BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E22BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift */; };
+		0A0BA7E42BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E22BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift */; };
+		0A0BA7E62BD9531700FEFE95 /* KHTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */; };
+		0A0BA7E72BD9531700FEFE95 /* KHTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,8 @@
 		0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTheme.swift; sourceTree = "<group>"; };
 		0A0BA7DC2BD9524A00FEFE95 /* KHTree_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTree_ViewModel.swift; sourceTree = "<group>"; };
 		0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeViewModel.swift; sourceTree = "<group>"; };
+		0A0BA7E22BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeGroupViewContentProvider.swift; sourceTree = "<group>"; };
+		0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +228,8 @@
 		0A0BA7802BD9401600FEFE95 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA7E22BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift */,
+				0A0BA7E52BD9531700FEFE95 /* KHTreeView.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -429,6 +437,7 @@
 				0A0BA7A62BD9472D00FEFE95 /* KHViewHelper.swift in Sources */,
 				0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */,
 				0A0BA7CC2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
+				0A0BA7E32BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift in Sources */,
 				0A0BA7B52BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
 				0A0BA7AA2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
 				0A0BA7922BD9418000FEFE95 /* KHDetailsEntry.swift in Sources */,
@@ -442,6 +451,7 @@
 				0A0BA76E2BD93F4000FEFE95 /* homework_img_lyApp.swift in Sources */,
 				0A0BA7B32BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */,
 				0A0BA7942BD9419A00FEFE95 /* KHContentManager.swift in Sources */,
+				0A0BA7E62BD9531700FEFE95 /* KHTreeView.swift in Sources */,
 				0A0BA7DD2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */,
 				0A0BA7E02BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */,
 				0A0BA7D02BD9476C00FEFE95 /* KHView.swift in Sources */,
@@ -456,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0BA7B42BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */,
+				0A0BA7E72BD9531700FEFE95 /* KHTreeView.swift in Sources */,
 				0A0BA7BC2BD9474B00FEFE95 /* KHTheme_Sensitive.swift in Sources */,
 				0A0BA7CF2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */,
 				0A0BA7AB2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
@@ -471,6 +482,7 @@
 				0A0BA7B62BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
 				0A0BA7D72BD951A400FEFE95 /* KHPalette.swift in Sources */,
 				0A0BA7C42BD9475600FEFE95 /* UIView+Layout.swift in Sources */,
+				0A0BA7E42BD952FC00FEFE95 /* KHTreeGroupViewContentProvider.swift in Sources */,
 				0A0BA7C82BD9475600FEFE95 /* KHGeometry.swift in Sources */,
 				0A0BA7C22BD9475600FEFE95 /* UIView+Geometry.swift in Sources */,
 				0A0BA7AD2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */,
