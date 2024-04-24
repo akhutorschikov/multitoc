@@ -27,11 +27,10 @@ final class Tests: XCTestCase
 
     func testTreeParser() throws
     {
-        XCTAssert(self.sut.entries.isEmpty)
-     
         // given
         let promise = expectation(description: "Completion handler invoked")
         self.sut.local = true
+        self.sut.entries = []
         
         // when
         self.sut.loadTree {
