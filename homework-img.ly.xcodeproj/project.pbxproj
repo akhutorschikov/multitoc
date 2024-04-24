@@ -57,6 +57,10 @@
 		0A0BA7D72BD951A400FEFE95 /* KHPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D52BD951A400FEFE95 /* KHPalette.swift */; };
 		0A0BA7D92BD951C700FEFE95 /* KHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */; };
 		0A0BA7DA2BD951C700FEFE95 /* KHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */; };
+		0A0BA7DD2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DC2BD9524A00FEFE95 /* KHTree_ViewModel.swift */; };
+		0A0BA7DE2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DC2BD9524A00FEFE95 /* KHTree_ViewModel.swift */; };
+		0A0BA7E02BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */; };
+		0A0BA7E12BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,8 @@
 		0A0BA7D22BD9517D00FEFE95 /* KHStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStyle.swift; sourceTree = "<group>"; };
 		0A0BA7D52BD951A400FEFE95 /* KHPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHPalette.swift; sourceTree = "<group>"; };
 		0A0BA7D82BD951C700FEFE95 /* KHTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTheme.swift; sourceTree = "<group>"; };
+		0A0BA7DC2BD9524A00FEFE95 /* KHTree_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTree_ViewModel.swift; sourceTree = "<group>"; };
+		0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHTreeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +229,8 @@
 		0A0BA7812BD9402800FEFE95 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA7DB2BD9521200FEFE95 /* Protocol */,
+				0A0BA7DF2BD9527E00FEFE95 /* KHTreeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -300,6 +308,14 @@
 				0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		0A0BA7DB2BD9521200FEFE95 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7DC2BD9524A00FEFE95 /* KHTree_ViewModel.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,6 +442,8 @@
 				0A0BA76E2BD93F4000FEFE95 /* homework_img_lyApp.swift in Sources */,
 				0A0BA7B32BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */,
 				0A0BA7942BD9419A00FEFE95 /* KHContentManager.swift in Sources */,
+				0A0BA7DD2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */,
+				0A0BA7E02BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */,
 				0A0BA7D02BD9476C00FEFE95 /* KHView.swift in Sources */,
 				0A0BA7C12BD9475600FEFE95 /* UIView+Geometry.swift in Sources */,
 				0A0BA7D92BD951C700FEFE95 /* KHTheme.swift in Sources */,
@@ -449,6 +467,7 @@
 				0A0BA7C62BD9475600FEFE95 /* KHColor+Basic.swift in Sources */,
 				0A0BA7CD2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
 				0A0BA7BA2BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
+				0A0BA7DE2BD9524A00FEFE95 /* KHTree_ViewModel.swift in Sources */,
 				0A0BA7B62BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
 				0A0BA7D72BD951A400FEFE95 /* KHPalette.swift in Sources */,
 				0A0BA7C42BD9475600FEFE95 /* UIView+Layout.swift in Sources */,
@@ -457,6 +476,7 @@
 				0A0BA7AD2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */,
 				0A0BA7D12BD9476C00FEFE95 /* KHView.swift in Sources */,
 				0A0BA7B82BD9474B00FEFE95 /* KHView_Editable.swift in Sources */,
+				0A0BA7E12BD9527E00FEFE95 /* KHTreeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
