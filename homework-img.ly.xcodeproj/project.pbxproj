@@ -21,6 +21,36 @@
 		0A0BA79C2BD9463E00FEFE95 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79A2BD9463E00FEFE95 /* tree.json */; };
 		0A0BA79E2BD9465700FEFE95 /* details.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79D2BD9465700FEFE95 /* details.json */; };
 		0A0BA79F2BD9465700FEFE95 /* details.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA79D2BD9465700FEFE95 /* details.json */; };
+		0A0BA7A62BD9472D00FEFE95 /* KHViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7A52BD9472D00FEFE95 /* KHViewHelper.swift */; };
+		0A0BA7A72BD9472D00FEFE95 /* KHViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7A52BD9472D00FEFE95 /* KHViewHelper.swift */; };
+		0A0BA7AA2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7A82BD9473900FEFE95 /* KHSeparatorConfig.swift */; };
+		0A0BA7AB2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7A82BD9473900FEFE95 /* KHSeparatorConfig.swift */; };
+		0A0BA7AC2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7A92BD9473900FEFE95 /* KHShadowConfig.swift */; };
+		0A0BA7AD2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7A92BD9473900FEFE95 /* KHShadowConfig.swift */; };
+		0A0BA7B32BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7AE2BD9474B00FEFE95 /* KHConfig_Protocol.swift */; };
+		0A0BA7B42BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7AE2BD9474B00FEFE95 /* KHConfig_Protocol.swift */; };
+		0A0BA7B52BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7AF2BD9474B00FEFE95 /* KHLayout_Listener.swift */; };
+		0A0BA7B62BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7AF2BD9474B00FEFE95 /* KHLayout_Listener.swift */; };
+		0A0BA7B72BD9474B00FEFE95 /* KHView_Editable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7B02BD9474B00FEFE95 /* KHView_Editable.swift */; };
+		0A0BA7B82BD9474B00FEFE95 /* KHView_Editable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7B02BD9474B00FEFE95 /* KHView_Editable.swift */; };
+		0A0BA7B92BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7B12BD9474B00FEFE95 /* KHColor_Sensitive.swift */; };
+		0A0BA7BA2BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7B12BD9474B00FEFE95 /* KHColor_Sensitive.swift */; };
+		0A0BA7BB2BD9474B00FEFE95 /* KHTheme_Sensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7B22BD9474B00FEFE95 /* KHTheme_Sensitive.swift */; };
+		0A0BA7BC2BD9474B00FEFE95 /* KHTheme_Sensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7B22BD9474B00FEFE95 /* KHTheme_Sensitive.swift */; };
+		0A0BA7C12BD9475600FEFE95 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7BD2BD9475600FEFE95 /* UIView+Geometry.swift */; };
+		0A0BA7C22BD9475600FEFE95 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7BD2BD9475600FEFE95 /* UIView+Geometry.swift */; };
+		0A0BA7C32BD9475600FEFE95 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7BE2BD9475600FEFE95 /* UIView+Layout.swift */; };
+		0A0BA7C42BD9475600FEFE95 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7BE2BD9475600FEFE95 /* UIView+Layout.swift */; };
+		0A0BA7C52BD9475600FEFE95 /* KHColor+Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7BF2BD9475600FEFE95 /* KHColor+Basic.swift */; };
+		0A0BA7C62BD9475600FEFE95 /* KHColor+Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7BF2BD9475600FEFE95 /* KHColor+Basic.swift */; };
+		0A0BA7C72BD9475600FEFE95 /* KHGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7C02BD9475600FEFE95 /* KHGeometry.swift */; };
+		0A0BA7C82BD9475600FEFE95 /* KHGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7C02BD9475600FEFE95 /* KHGeometry.swift */; };
+		0A0BA7CC2BD9476C00FEFE95 /* KHGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7C92BD9476C00FEFE95 /* KHGroupView.swift */; };
+		0A0BA7CD2BD9476C00FEFE95 /* KHGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7C92BD9476C00FEFE95 /* KHGroupView.swift */; };
+		0A0BA7CE2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CA2BD9476C00FEFE95 /* KHGroupRowView.swift */; };
+		0A0BA7CF2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CA2BD9476C00FEFE95 /* KHGroupRowView.swift */; };
+		0A0BA7D02BD9476C00FEFE95 /* KHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */; };
+		0A0BA7D12BD9476C00FEFE95 /* KHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +77,21 @@
 		0A0BA7962BD942F500FEFE95 /* KHNetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHNetworkMonitor.swift; sourceTree = "<group>"; };
 		0A0BA79A2BD9463E00FEFE95 /* tree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
 		0A0BA79D2BD9465700FEFE95 /* details.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = details.json; sourceTree = "<group>"; };
+		0A0BA7A52BD9472D00FEFE95 /* KHViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHViewHelper.swift; sourceTree = "<group>"; };
+		0A0BA7A82BD9473900FEFE95 /* KHSeparatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHSeparatorConfig.swift; sourceTree = "<group>"; };
+		0A0BA7A92BD9473900FEFE95 /* KHShadowConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHShadowConfig.swift; sourceTree = "<group>"; };
+		0A0BA7AE2BD9474B00FEFE95 /* KHConfig_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHConfig_Protocol.swift; sourceTree = "<group>"; };
+		0A0BA7AF2BD9474B00FEFE95 /* KHLayout_Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHLayout_Listener.swift; sourceTree = "<group>"; };
+		0A0BA7B02BD9474B00FEFE95 /* KHView_Editable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHView_Editable.swift; sourceTree = "<group>"; };
+		0A0BA7B12BD9474B00FEFE95 /* KHColor_Sensitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHColor_Sensitive.swift; sourceTree = "<group>"; };
+		0A0BA7B22BD9474B00FEFE95 /* KHTheme_Sensitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHTheme_Sensitive.swift; sourceTree = "<group>"; };
+		0A0BA7BD2BD9475600FEFE95 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
+		0A0BA7BE2BD9475600FEFE95 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		0A0BA7BF2BD9475600FEFE95 /* KHColor+Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KHColor+Basic.swift"; sourceTree = "<group>"; };
+		0A0BA7C02BD9475600FEFE95 /* KHGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHGeometry.swift; sourceTree = "<group>"; };
+		0A0BA7C92BD9476C00FEFE95 /* KHGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHGroupView.swift; sourceTree = "<group>"; };
+		0A0BA7CA2BD9476C00FEFE95 /* KHGroupRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHGroupRowView.swift; sourceTree = "<group>"; };
+		0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +174,12 @@
 		0A0BA77D2BD9400400FEFE95 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BA7A02BD946E800FEFE95 /* Helper */,
+				0A0BA7A12BD946F200FEFE95 /* Config */,
+				0A0BA7A22BD946FE00FEFE95 /* Protocol */,
+				0A0BA7A32BD9470700FEFE95 /* Extension */,
 				0A0BA7952BD942E400FEFE95 /* Network */,
+				0A0BA7A42BD9471400FEFE95 /* UIView */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -188,6 +238,56 @@
 				0A0BA79D2BD9465700FEFE95 /* details.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		0A0BA7A02BD946E800FEFE95 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7A52BD9472D00FEFE95 /* KHViewHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0A0BA7A12BD946F200FEFE95 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7A82BD9473900FEFE95 /* KHSeparatorConfig.swift */,
+				0A0BA7A92BD9473900FEFE95 /* KHShadowConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0A0BA7A22BD946FE00FEFE95 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7B12BD9474B00FEFE95 /* KHColor_Sensitive.swift */,
+				0A0BA7AE2BD9474B00FEFE95 /* KHConfig_Protocol.swift */,
+				0A0BA7AF2BD9474B00FEFE95 /* KHLayout_Listener.swift */,
+				0A0BA7B22BD9474B00FEFE95 /* KHTheme_Sensitive.swift */,
+				0A0BA7B02BD9474B00FEFE95 /* KHView_Editable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0A0BA7A32BD9470700FEFE95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7BF2BD9475600FEFE95 /* KHColor+Basic.swift */,
+				0A0BA7C02BD9475600FEFE95 /* KHGeometry.swift */,
+				0A0BA7BD2BD9475600FEFE95 /* UIView+Geometry.swift */,
+				0A0BA7BE2BD9475600FEFE95 /* UIView+Layout.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0A0BA7A42BD9471400FEFE95 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA7CA2BD9476C00FEFE95 /* KHGroupRowView.swift */,
+				0A0BA7C92BD9476C00FEFE95 /* KHGroupView.swift */,
+				0A0BA7CB2BD9476C00FEFE95 /* KHView.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,12 +394,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BA7C32BD9475600FEFE95 /* UIView+Layout.swift in Sources */,
+				0A0BA7AC2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */,
 				0A0BA7972BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
 				0A0BA7902BD9416500FEFE95 /* KHMainEntry.swift in Sources */,
+				0A0BA7A62BD9472D00FEFE95 /* KHViewHelper.swift in Sources */,
 				0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */,
+				0A0BA7CC2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
+				0A0BA7B52BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
+				0A0BA7AA2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
 				0A0BA7922BD9418000FEFE95 /* KHDetailsEntry.swift in Sources */,
+				0A0BA7CE2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */,
+				0A0BA7B92BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
+				0A0BA7C52BD9475600FEFE95 /* KHColor+Basic.swift in Sources */,
+				0A0BA7BB2BD9474B00FEFE95 /* KHTheme_Sensitive.swift in Sources */,
+				0A0BA7C72BD9475600FEFE95 /* KHGeometry.swift in Sources */,
 				0A0BA76E2BD93F4000FEFE95 /* homework_img_lyApp.swift in Sources */,
+				0A0BA7B32BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */,
 				0A0BA7942BD9419A00FEFE95 /* KHContentManager.swift in Sources */,
+				0A0BA7D02BD9476C00FEFE95 /* KHView.swift in Sources */,
+				0A0BA7C12BD9475600FEFE95 /* UIView+Geometry.swift in Sources */,
+				0A0BA7B72BD9474B00FEFE95 /* KHView_Editable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +422,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BA7B42BD9474B00FEFE95 /* KHConfig_Protocol.swift in Sources */,
+				0A0BA7BC2BD9474B00FEFE95 /* KHTheme_Sensitive.swift in Sources */,
+				0A0BA7CF2BD9476C00FEFE95 /* KHGroupRowView.swift in Sources */,
+				0A0BA7AB2BD9473900FEFE95 /* KHSeparatorConfig.swift in Sources */,
+				0A0BA7A72BD9472D00FEFE95 /* KHViewHelper.swift in Sources */,
 				0A0BA7982BD942F500FEFE95 /* KHNetworkMonitor.swift in Sources */,
 				0A0BA7892BD940C800FEFE95 /* Tests.swift in Sources */,
+				0A0BA7C62BD9475600FEFE95 /* KHColor+Basic.swift in Sources */,
+				0A0BA7CD2BD9476C00FEFE95 /* KHGroupView.swift in Sources */,
+				0A0BA7BA2BD9474B00FEFE95 /* KHColor_Sensitive.swift in Sources */,
+				0A0BA7B62BD9474B00FEFE95 /* KHLayout_Listener.swift in Sources */,
+				0A0BA7C42BD9475600FEFE95 /* UIView+Layout.swift in Sources */,
+				0A0BA7C82BD9475600FEFE95 /* KHGeometry.swift in Sources */,
+				0A0BA7C22BD9475600FEFE95 /* UIView+Geometry.swift in Sources */,
+				0A0BA7AD2BD9473900FEFE95 /* KHShadowConfig.swift in Sources */,
+				0A0BA7D12BD9476C00FEFE95 /* KHView.swift in Sources */,
+				0A0BA7B82BD9474B00FEFE95 /* KHView_Editable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
