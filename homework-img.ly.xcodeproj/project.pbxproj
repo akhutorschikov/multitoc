@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A0BA76E2BD93F4000FEFE95 /* homework_img_lyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA76D2BD93F4000FEFE95 /* homework_img_lyApp.swift */; };
-		0A0BA7702BD93F4000FEFE95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA76F2BD93F4000FEFE95 /* ContentView.swift */; };
+		0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BA76F2BD93F4000FEFE95 /* HomeView.swift */; };
 		0A0BA7722BD93F4100FEFE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */; };
 		0A0BA7752BD93F4100FEFE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		0A0BA76A2BD93F4000FEFE95 /* homework-img.ly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework-img.ly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0BA76D2BD93F4000FEFE95 /* homework_img_lyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_img_lyApp.swift; sourceTree = "<group>"; };
-		0A0BA76F2BD93F4000FEFE95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A0BA76F2BD93F4000FEFE95 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,9 +51,13 @@
 		0A0BA76C2BD93F4000FEFE95 /* homework-img.ly */ = {
 			isa = PBXGroup;
 			children = (
-				0A0BA76D2BD93F4000FEFE95 /* homework_img_lyApp.swift */,
-				0A0BA76F2BD93F4000FEFE95 /* ContentView.swift */,
-				0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */,
+				0A0BA77D2BD9400400FEFE95 /* Library */,
+				0A0BA77E2BD9400800FEFE95 /* Style */,
+				0A0BA77F2BD9400F00FEFE95 /* Model */,
+				0A0BA7812BD9402800FEFE95 /* ViewModel */,
+				0A0BA7802BD9401600FEFE95 /* UIView */,
+				0A0BA77C2BD93FDA00FEFE95 /* View */,
+				0A0BA77B2BD93F8F00FEFE95 /* Other */,
 				0A0BA7732BD93F4100FEFE95 /* Preview Content */,
 			);
 			path = "homework-img.ly";
@@ -65,6 +69,58 @@
 				0A0BA7742BD93F4100FEFE95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A0BA77B2BD93F8F00FEFE95 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA76D2BD93F4000FEFE95 /* homework_img_lyApp.swift */,
+				0A0BA7712BD93F4100FEFE95 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A0BA77C2BD93FDA00FEFE95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BA76F2BD93F4000FEFE95 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A0BA77D2BD9400400FEFE95 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0A0BA77E2BD9400800FEFE95 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		0A0BA77F2BD9400F00FEFE95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0BA7802BD9401600FEFE95 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0A0BA7812BD9402800FEFE95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0BA7702BD93F4000FEFE95 /* ContentView.swift in Sources */,
+				0A0BA7702BD93F4000FEFE95 /* HomeView.swift in Sources */,
 				0A0BA76E2BD93F4000FEFE95 /* homework_img_lyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
