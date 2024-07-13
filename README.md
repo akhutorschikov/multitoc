@@ -1,4 +1,4 @@
-Multi-level Table of Content
+Multi-Level Editable Table of Contents
 
 Description: 
 Simple project that parses data from a remote JSON source and displays it on two screens in a user-readable form. The first screen presents multi-level table of contents with editing features, while the second screen displays detais for selected entry from the first screen.
