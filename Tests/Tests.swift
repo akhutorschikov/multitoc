@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import homework_img_ly
+@testable import multitoc
 
 final class Tests: XCTestCase 
 {
